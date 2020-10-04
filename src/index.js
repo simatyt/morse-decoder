@@ -49,8 +49,6 @@ function decode(expr) {
 }
 
 function decodeToMorse(code) {
-    console.log(code)
-
     return code.replace(/11/g, "-").replace(/10/g, ".").replace(/0+/g, "");
 }
 
